@@ -1,0 +1,84 @@
+.list{   
+     vertical-align: text-top;
+text-decoration: none;
+    color: grey;
+    font-size: 27px;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    line-height: 34px;  
+    text-align:justify;
+    color: #231f20;
+list-style: none;
+}.adresa{
+    font-size: 33px;
+      font-weight: bold;
+
+}
+.grid {
+    width: 50%;
+    font-size: 1.2em;
+margin: auto;
+    vertical-align: text-top;
+
+    
+
+}
+.kontakt{
+    margin-bottom: 50px;
+
+}
+.list, .list2{   
+     vertical-align: text-top;
+
+    color: grey;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    line-height: 24px;  
+    text-align:justify;
+    color: #231f20;
+    list-style-type:none;
+}
+.list{
+    width: 50%;
+    padding: 0;
+}
+.list2{
+ padding: 0;
+
+}
+.mail ,.tel {
+    text-decoration: none !important;
+    color:rgb(0, 183, 255);
+    list-style-type:none;
+}
+
+@media screen and (max-width: 860px) {
+   
+    .grid {
+        width: 100%;
+        font-size: 1.4em;
+    
+        vertical-align: text-top;
+        display:inline-block;
+        
+    
+    }
+    .list, .list2{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+
+    }
+    .prace2{
+        display: none;
+    }
+    .mapa{
+        width: 60vw !important;
+        height: 50vw!important;
+
+    }
+    .kontakt .kontaktFoto{
+        height: 75vh;
+    }
+}

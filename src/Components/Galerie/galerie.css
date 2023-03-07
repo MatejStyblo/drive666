@@ -1,0 +1,45 @@
+.modular {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    transition: 0.25s ease-out;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+ }
+ 
+ .navbar {
+ }
+ .modular.open {
+    opacity: 1;
+    pointer-events: all;
+ }
+ .fullImg {
+    position: absolute;
+    height: 70%;
+position: absolute;
+top: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: all 0.25 ease-out;
+ }
+ .fullImg.open {
+    transform: translate(-50%, -50%) scale(1);
+ }
+ .fotky{
+  
+ }
+ @media screen and (max-width: 900px) {
+    .fullImg {
+       margin-left: 0;
+ 
+       position: absolute;
+       height: 35%;
+ 
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%) scale(0.5);
+       transition: all 0.25 ease-out;
+    }
+ }

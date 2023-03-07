@@ -1,0 +1,20 @@
+.mainFooter {
+    background: black;
+    font-size: 1.2em;
+ 
+    display: flex;
+    position: relative;
+ 
+    box-shadow: none;
+ }
+ p {
+   color: white; 
+   }
+ 
+ .mainFooter {
+    flex: 1;
+    display: grid;
+    justify-content: center;
+ }
+ .foot {
+ }

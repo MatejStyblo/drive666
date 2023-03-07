@@ -1,0 +1,152 @@
+
+body{
+    background-color: #ebebec;
+
+}
+
+.container .text {
+    text-align: left;
+    margin-left: auto;
+    max-width: 50%;
+   text-align: center;
+}
+
+.text {
+    color: grey;
+    font-size: 1.4em;
+    line-height: calc(1ex / 0.32);
+    margin: calc(1ex / 0.32) 0;    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    line-height: calc(1ex / 0.32);
+}
+
+
+.grid {
+    max-width: 55%;
+    font-size: 1.2em;
+
+    vertical-align: text-top;
+    display:inline-block;
+    
+
+}
+
+.list, .list2{   
+     vertical-align: text-top;
+
+    color: grey;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    line-height: 30px;  
+    text-align:justify;
+    color: #231f20;
+
+}
+.list{
+    width: 50%;
+}
+.list2{
+    text-align: center;
+}
+.nadpis {
+    font-size: 40px;
+    text-align: center;
+}
+.prace{
+    text-align: center;   
+     margin: calc(1ex / 0.42) 0;
+
+}
+/* .prace {
+    background-color: #231f20;
+    padding: 5px;
+    color: white;
+    font: 25px;
+    text-align: center;
+    margin-bottom: 0;
+} */
+
+.grid .list li {    
+
+    list-style-type: square;}
+.grid .list2 li {    
+
+    list-style-type: square;
+
+}
+.grid{
+    margin-bottom: 100px;
+}
+    .column{        
+
+        width: 400px;
+        float:left;
+        position: relative;
+        padding-bottom: 50px;
+        margin: auto;
+        margin-right: 50px;
+    }
+    .ImageCom{
+        display:inline-block;
+    }
+@media screen and (max-width: 860px) {
+  
+    .container .text {
+        margin-left: auto;max-width: 80%;
+       
+    }
+    .grid {
+        max-width: 100%;
+        font-size: 1.2em;
+    
+        vertical-align: text-top;
+        display:inline-block;
+        
+    
+    }
+    .list, .list2{
+        width: 80%;
+        text-align: center;
+        padding: 0;
+     line-height: 40px;  
+list-style:none;
+
+
+    }
+    .grid .list2 li{
+        margin: 0;
+        list-style-type:none;
+        text-align: center;
+        
+    }
+   .grid .list li {
+        list-style-type: none;
+        text-align: center;
+    } 
+    .column{
+align-items: center;        
+width: 350px;
+float: none;
+padding-bottom: 0;
+margin: 0;
+margin-bottom: 30px;
+    }.prace{
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+    }
+
+
+ .grid {
+ 
+    display: table-header-group;
+
+
+}
+.top {
+ display: table-footer-group;
+}
+}
