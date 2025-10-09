@@ -18,8 +18,8 @@ export class MapContainer extends Component {
                google={this.props.google}
                          containerStyle={containerStyle}
                  initialCenter={{
-                  lat: 50.231565016355134,
-                  lng: 15.890913487198356,
+                  lat: 50.581220858496515,
+                  lng: 14.98348325750944,
                }}
                zoom={18}
                onClick={this.onMapClicked}
@@ -27,8 +27,8 @@ export class MapContainer extends Component {
             >
                  <Marker
                   title={'Křepelky'}
-                  position={{  lat: 50.231565016355134,
-                     lng: 15.890913487198356, }}
+                  position={{  lat: 50.581220858496515,
+                     lng: 14.98348325750944, }}
                /> 
             </Map>
          </div>
