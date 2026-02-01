@@ -13,29 +13,29 @@ function Ceník() {
     </tr>
     <tr>
       <td>do 8,9l</td>
-      <td>195,-Kč/l<span className={styles.star}>*</span></td>
+      <td>215,-Kč/l<span className={styles.star}>*</span></td>
       </tr>
     <tr>
       <td>9l – 17l</td>
-      <td> 175,-Kč/l</td>
+      <td> 195,-Kč/l</td>
       </tr>
     <tr>
       <td>18l a více</td>
-      <td>165,-Kč/l</td>
+      <td>185,-Kč/l</td>
       </tr></tbody>
    
     </table>
     <br/>
     <br/>
     <ul className={styles.podminky}><h1>Ostatní</h1>
-      <li>Za nepříznivých podnebných podmínek příplatek za sušení 100,-/den</li>
+      <li>Za nepříznivých podnebných podmínek příplatek za sušení 150,-/den</li>
       <li>Sváření a letování cena dle domluvy (rozdíl v použitých materiálech a velikostí poškození)
 
 </li>
-      <li>demontování/montování/vícepráce: 490,-/h
+      <li>demontování/montování/vícepráce: 950,-/h
 
 </li>
-      <li> <span className={styles.star}>*</span> Minimálně 1000,-Kč
+      <li> <span className={styles.star}>*</span> Minimálně 1700,-Kč
 
 </li>
     </ul>
